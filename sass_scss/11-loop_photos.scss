@@ -1,0 +1,9 @@
+/* For Each */
+
+@import '11-photos';
+
+@each $name in $list-names {
+    .#{lowercase($name)} {
+        background-image: url('images/#{lowercase($name)}.jpg');
+    }
+}
