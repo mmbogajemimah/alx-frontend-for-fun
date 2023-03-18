@@ -1,0 +1,9 @@
+/* Nested hover: the & selector to reference the parent selector, allowing us to nest the :hover pseudo-class inside the button selector. */
+
+button {
+    color: #FF0000;
+
+    &:hover {
+        color: #00FF00;
+    }
+}
