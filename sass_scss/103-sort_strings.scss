@@ -1,0 +1,8 @@
+/* Sort */
+@import '103-sort_list';
+
+// Sort the list in ascending order
+$list_sorted: sort($list_to_sort);
+
+// Output the sorted list in the debug output
+@debug $list_sorted;
